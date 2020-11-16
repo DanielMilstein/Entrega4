@@ -1,6 +1,13 @@
 import psycopg2 as pg
 from tabulate import tabulate
 
+
+def registro(cur):
+    nombre, email, clave, telefono = input('Ingrese nombre: '), input('Ingrese email: '), input('Ingrese clave: '), input('Ingrese telefono: ')
+    if email != '' and telefono != ''
+
+
+
 #establecer coneccion
 con = pg.connect(
     host = '201.238.213.114',
